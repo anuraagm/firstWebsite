@@ -1,0 +1,129 @@
+#parent_of_imgs { white-space-collapse: discard; }
+*{
+	padding: 0;
+	margin: 0;
+}
+.brandname{
+    font-family: "Arial Black", Times, sans-Serif;
+    font-size: 180%;
+    color: rgb(0, 9, 22);
+}
+.container-fluid{
+    background-color:rgb(244, 245, 247);	
+}
+.navbar-nav{
+    font-size: 130%;
+}
+.active{
+	color: rgb(214,214,214);
+}
+.navbar-inverse {border:none !important;}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    /* The image used */
+    
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+	height: 100%;
+}
+
+.exp{
+     background-color: rgb(239, 243, 249);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog{
+     background-color: rgb(244, 248, 255);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    min-height: 100%;
+}
+
+#tur{
+	padding: 40px;
+}
+div{
+	box-shadow: 0px 5px 5px #999;
+}
+p{
+    font-style: Helvetica;
+}
+.h1-img {
+   position: absolute; 
+   font: bold Arial;
+   bottom: 400px;
+   left: 0; 
+   width: 100%; 
+}
+h1 span { 
+   border: none;
+   color: white; 
+   font: bold 24px/45px Arial; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+h1 span.spacer {
+   padding:0 5px;
+}
+.h1-img span.spacer {
+   padding:0 3px;
+}
+.cont{
+   border: none;
+   color: white; 
+   font: bold 24px/45px Arial; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.2);
+   padding: 10px;   
+}
+ .h{
+   border: none;
+   color: white; 
+   font: bold Arial; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.5);
+   padding: 20px 40px;   
+}
+div .btn-toolbar{
+    box-shadow: none;    
+}
+.cov{
+   border: none;
+   color: white; 
+   font: bold 24px/45px Arial; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.1);
+   padding: 10px;   
+}
